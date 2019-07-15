@@ -1,0 +1,79 @@
+body {
+    background-image: url("lightbluesortof.jpg");
+    font-family: 'Quicksand', sans-serif;
+}
+.ctext {
+    text-align: center;
+}
+.textbox {
+    background-color: #E8F3F6;
+    color: black;
+    padding: 15px 100px 50px 100px;
+    margin: 0px 100px 40px 100px;
+}
+.alttextbox {
+    background-color: #E8F3F6;
+    color: black;
+    margin: 0% 30% 0% 30%;
+}
+.heading {
+    background: #B1E1E7;
+}
+.container {
+    display:flex;
+    align-content: center;
+    padding: 1px 3px 2px 2px;
+    margin: 10px 50px 2px 50px;
+    
+}
+.container > div {
+    padding: 10px;
+    text-align: center;
+    font-size: 1.3em;
+    background-color: black;
+    align-items: center;
+    width: 100%; 
+    opacity: 0.7;
+    transition: 0.3s;
+}
+.container > div:hover {
+    background-color: black;
+    color: #E9E9E9;
+    opacity: 1;
+}
+.bodylink:hover{
+    color: #B1E1E7;
+}
+.navlink:link {
+    color: #c80000;
+    text-decoration:none;
+}
+.navlink:hover {
+    color: #E9E9E9;
+}
+.navlink:visited {
+    color: #E9E9E9;
+}
+.navlink:visited:hover {
+    color: #E9E9E9;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    align-content: center;
+    padding: 0px 170px 0px 170px;
+
+}
+.grid-container > div {
+   text-align:center;
+}
+.grid-item {
+    font-size: 3px;
+    margin: 0px;
+    padding: 0px;
+}
+.grid-item > hover {
+    color: #E9E9E9;
+    font-size: 3px;
+    
+}
