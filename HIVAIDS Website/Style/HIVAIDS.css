@@ -18,6 +18,26 @@ body {
 }
 .heading {
     background: #B1E1E7;
+    margin: 0px 250px;
+}
+.bodylink {
+    color: black  !important;
+}
+.bodylink:hover {
+    color: #C80000 !important;
+}
+a:before {
+    color: #E8F3F6;
+}
+a:link {
+    color: #E8F3F6;
+    text-decoration: none;
+}
+a:visited{
+    color: #E8F3F6;
+}
+a:hover {
+    color: #C80000;
 }
 .container {
     display:flex;
@@ -75,5 +95,4 @@ body {
 .grid-item > hover {
     color: #E9E9E9;
     font-size: 3px;
-    
 }
