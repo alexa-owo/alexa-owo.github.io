@@ -1,0 +1,117 @@
+body {
+    background-image: url("lightbluesortof.jpg");
+    font-family: 'Quicksand', sans-serif;
+}
+.ctext {
+    text-align: center;
+}
+.textbox {
+    background-color: #E8F3F6;
+    color: black;
+    padding: 15px 100px 50px 100px;
+    margin: 0px 100px 40px 100px;
+}
+.alttextbox {
+    background-color: #E8F3F6;
+    color: black;
+    margin: 0% 30% 0% 30%;
+}
+.alttextbox2 {
+    background-color: #B1E1E7;
+    color: black;
+    margin: 0% 30% 0% 30%;
+}
+.heading {
+    background: #B1E1E7;
+    margin: 0px 250px;
+}
+.bodylink {
+    color: black  !important;
+}
+.bodylink:hover {
+    color: #C80000 !important;
+}
+a:before {
+    color: #E8F3F6;
+}
+a:link {
+    color: #E8F3F6;
+    text-decoration: none;
+}
+a:visited{
+    color: #E8F3F6;
+}
+a:hover {
+    color: #C80000;
+}
+.container {
+    display:flex;
+    align-content: center;
+    padding: 1px 3px 2px 2px;
+    margin: 10px 50px 2px 50px;
+    
+}
+.container > div {
+    padding: 10px;
+    text-align: center;
+    font-size: 1.3em;
+    background-color: black;
+    align-items: center;
+    width: 100%; 
+    opacity: 0.7;
+    transition: 0.3s;
+}
+.container > div:hover {
+    background-color: black;
+    color: #E9E9E9;
+    opacity: 1;
+}
+.bodylink:hover{
+    color: #B1E1E7;
+}
+.navlink:link {
+    color: #c80000;
+    text-decoration:none;
+}
+.navlink:hover {
+    color: #E9E9E9;
+}
+.navlink:visited {
+    color: #E9E9E9;
+}
+.navlink:visited:hover {
+    color: #E9E9E9;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    align-content: center;
+    margin: 0px 170px;
+}
+.grid-container > div {
+   text-align:center;
+}
+.grid-item {
+    margin: 0px 0x;
+    padding: 0px 0px;
+    align-content: center;
+}
+.curr-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-content: center;
+    padding: 0px 170px 0px 170px;
+}
+.curr-grid > div {
+   text-align:center;
+}
+.curr-item {
+    font-size: 3px;
+    margin: 0px;
+    padding: 0px;
+}
+.curr-item2 {
+    font-size: 3px;
+    margin: 0px;
+    padding: 0px 200px 0px 200px;
+}
