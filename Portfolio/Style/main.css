@@ -1,0 +1,92 @@
+body {
+    font-family: 'Assistant', sans-serif;
+
+}
+@media only screen and (max-width: 600px) {
+    { body
+        background-color: lightblue; }
+}
+.heading {
+  background-color: #000000;
+    margin: 0px 50px 0px 50px;
+}
+.ctext {
+  text-align: center;
+}
+.textbox {
+    background-color: black;
+    color: #EAEAEA;
+    padding: 10px 150px 100px 150px;
+    margin: 0px 100px 10px 100px;
+}
+.alttextbox {
+    background-color: black;
+    color: #EAEAEA;
+    margin: 0% 35% 0% 35%;
+    align-content: center;
+}
+.container {
+    display:flex;
+    align-content: center;
+}
+.container > div {
+    padding: 1px;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: black;
+    align-content: center;
+    width: 90%;
+    transition: 0.2s;
+    
+}
+.container > div:hover {
+    background-color: #A7A7A7;
+}
+a:before {
+    color: #EAEAEA;
+}
+a:link {
+    color: #EAEAEA;
+    text-decoration: none;
+}
+a:visited{
+    color: #EAEAEA;
+}
+a:hover {
+    color: #C80000;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    padding: 0px 170px 0px 170px;
+    align-content: center;
+}
+.grid-item > img {
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    height: 200px;
+}
+.aboutgrid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    align-content: center;
+
+}
+.aboutgrid-item > img {
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    height: 200px;
+}
+.boxcontact {
+    color: #EAEAEA;
+    background-color: black;
+    padding: 15px 12px;
+    margin: 0px 350px;
+}
+.margin {
+    margin: 0px 150px 0px 150px;
+}
